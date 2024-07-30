@@ -1,0 +1,48 @@
+/*
+Theme Name: 	   Corpiva
+Text Domain: 	   corpiva
+Version:            0.4
+Tested up to:       6.5
+Requires at least:  4.7
+Requires PHP:       5.6
+Author:             DesertThemes
+Author URI:         https://desertthemes.com/
+Theme URI:          https://desertthemes.com/themes/corpiva-free/
+Description:        Corpiva is lightweight, highly extendable and multi-purpose WordPress Theme. Corpiva is perfect for Startup, IT Solutions, IT Business, Agencies, Marketing, Consulting and Services Company related to any business websites. Corpiva based on in-depth research into IT Solutions, IT Services, IT Business, Consulting & Software, Digital Solution, Technical Engineering, Technology, and Services Company, to deliver all needed layouts and blocks. It will enable you to create almost any type of website with a beautiful & professional design. Corpiva supports popular WordPress plugins such as Elementor, WPML, Polylang, Yoast SEO, WooCommerce, Contact Form 7, Jetpack, and much more. Corpiva Pro demo https://preview.desertthemes.com/pro/corpiva/
+Tags:               one-column, two-columns ,right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, post-formats, theme-options, threaded-comments, translation-ready, full-width-template, custom-logo, blog, e-commerce, portfolio
+License: GPLv3 or later
+License URI:  https://www.gnu.org/licenses/gpl-3.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+ */
+ 
+ 
+.process-card .icon i {
+    font-size: 60px;
+}
+
+.dt_post_item .meta li {
+    font-size: 1.4rem;
+    color: var(--dt-secondary-color);
+    font-weight: 600;
+    transition: all .2s ease-in-out;
+}
+
+.dt_post_item .meta i {
+    font-size: 2rem;
+    color: var(--dt-main-color);
+    vertical-align: middle;
+    margin-right: 0.8rem;
+}
+
+.wc-block-components-product-badge {
+    background: var(--dt-main-color);
+    color: #fff;
+}
+
+.wc-block-checkout__actions_row .wc-block-components-checkout-place-order-button {
+    background-color: var(--dt-main-color);
+    color: #fff;
+}

@@ -1,0 +1,65 @@
+.about-title {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+}
+.about-donate {
+    text-align: center;
+    font-weight: bold;
+}
+.about-space {
+    height: 5px;
+}
+@media screen and (min-width: 800px) {
+    .col-left {
+        float: left;
+        width: 65%;
+        padding: 1%;
+    }
+    .col-right {
+        float: right;
+        width: 30%;
+        padding: 1%;
+        border-left: 1px solid #DDDDDD;
+    }
+}
+.webzakt-button {
+    font-size: 18px;
+    margin: 25px 15px 15px 0;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    font-family: inherit;
+    text-decoration: none;
+    overflow: visible;
+    padding: 12px 24px;
+    font-weight: 700;
+    border-radius: 3px;
+    left: auto;
+    color: #fff !important;
+    background-color: #E84E41;
+    border: 0;
+    white-space: nowrap;
+    display: inline-block;
+    background-image: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    text-shadow: none;
+}
+.description .webzakt-button-pro:hover {
+    background-color: #E84E41!important;
+}
+.webzakt-button-more {
+    background-color: #2E3138!important;
+}
+.webzakt-button-more:hover {
+    background-color: #E84E41!important;
+}
+.free-and-pro .webzakt-button {
+    margin: 25px 20px 15px 0;
+    padding: 12px 30px;
+}
+.free-and-pro .webzakt-button-more {
+    padding: 12px 40px;
+}

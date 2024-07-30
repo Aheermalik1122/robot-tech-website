@@ -1,0 +1,29 @@
+# WordPress core files and directories
+/wp-admin/
+/wp-includes/
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/backup-*/ 
+
+# OS generated files #
+######################
+.DS_Store
+Thumbs.db
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# Temporary files #
+###################
+*.tmp
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Ignore wp-config.php for security
+wp-config.php
+
